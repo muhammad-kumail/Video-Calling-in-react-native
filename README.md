@@ -6,3 +6,5 @@ First delete package-lock.json file, run command: npm install or npm install -f 
 Everything is done now. run project
 ## Execution
 command: npm run android
+## Note
+Use your appID & appSign in src/call.js
