@@ -14,8 +14,9 @@ export default function Call({navigation,route}){
     return (
         <View style={styles.container}>
             <ZegoUIKitPrebuiltCall
-                appID={1110084154}
-                appSign='aedcbd52e469e959e2187ef2039c727423874f4842b4657488fbd698aa063cd4'
+                // create account in zegocloud to get appID & appSign
+                appID={<add your appID>} //in number
+                appSign=<add your appSign> //in string
                 userID={userID}
                 userName={userName}
                 callID='zego1234'
